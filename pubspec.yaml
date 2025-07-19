@@ -1,7 +1,7 @@
-name: flutterquiz
-description: A new Flutter application.
+name: tendertycoon
+description: A Tender Bidding Game where users bid on tenders and winners are rewarded.
 publish_to: "none"
-version: 1.0.17+21
+version: 1.0.1+1
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
