@@ -1,68 +1,69 @@
-name: flutterquiz
-description: A new Flutter application.
+name: tendertycoon
+description: A Tender Bidding Game Where Users bid on tenders and winners are rewarded.
 publish_to: "none"
-version: 1.0.17+21
+version: 1.0.1+1
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.19.0'
 
 dependencies:
   apple_sign_in_safety: ^0.0.6
-  assets_audio_player: ^3.0.6
-  cached_network_image: ^3.2.3
-  cloud_firestore: ^4.7.0
-  connectivity_plus: ^4.0.0
-  cupertino_icons: ^1.0.3
-  dotted_border: ^2.0.0+3
-  firebase_auth: ^4.6.0
-  firebase_core: ^2.12.0
-  firebase_messaging: ^14.6.0
+  assets_audio_player: ^3.1.1
+  cached_network_image: ^3.3.1
+  cloud_firestore: ^4.15.8
+  connectivity_plus: ^5.0.2
+  cupertino_icons: ^1.0.8
+  dotted_border: ^2.1.0
+  firebase_auth: ^4.17.8
+  firebase_core: ^2.25.4
+  firebase_messaging: ^14.7.19
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.1.3
-  flutter_html: ^3.0.0-alpha.1
-  flutter_local_notifications: ^14.0.0+2
+  flutter_bloc: ^8.1.4
+  flutter_html: ^3.0.0-beta.2
+  flutter_local_notifications: ^16.3.2
   flutter_localizations:
     sdk: flutter
-  flutter_svg: ^1.0.0
-  google_fonts: ^4.0.4
-  google_mobile_ads: ^2.4.0
-  google_sign_in: ^6.1.0
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.1.0
+  google_mobile_ads: ^4.0.0
+  google_sign_in: ^6.2.1
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-  http: ^1.0.0
-  image_cropper: ^5.0.0
-  image_picker: ^0.8.7+5
-  in_app_purchase: ^3.0.4
+  http: ^1.2.1
+  image_cropper: ^5.0.1
+  image_picker: ^1.0.7
+  in_app_purchase: ^3.1.11
   internet_connection_checker: ^1.0.0+1
   intl: ^0.18.1
   intl_phone_field: ^3.2.0
   ios_insecure_screen_detector: ^0.0.2
-  just_audio: ^0.9.33
+  just_audio: ^0.9.36
   launch_review: ^3.0.1
-  lottie: ^2.3.2
-  octo_image: ^1.0.0+1
-  unity_ads_plugin: ^0.3.8
-  package_info_plus: ^3.1.2
-  path_provider: ^2.0.15
-  pin_code_fields: ^7.4.0
-  scratcher: ^2.3.0
-  screenshot: ^2.1.0
-  share_plus: ^6.3.4
-  shared_preferences: ^2.1.1
+  lottie: ^3.1.0
+  octo_image: ^2.0.0
+  unity_ads_plugin: ^0.4.10
+  package_info_plus: ^5.0.1
+  path_provider: ^2.1.2
+  pin_code_fields: ^8.0.1
+  scratcher: ^2.5.0
+  screenshot: ^2.2.0
+  share_plus: ^7.2.1
+  shared_preferences: ^2.2.2
   sms_autofill: ^2.3.0
-  url_launcher: ^6.1.11
-  wakelock: ^0.6.2
-  webview_flutter: ^3.0.4
+  url_launcher: ^6.2.5
+  wakelock: ^0.7.1+1
+  webview_flutter: ^4.7.0
   country_code_picker: ^3.0.0
-  flutter_windowmanager: ^0.2.0
-  flutter_widget_from_html: ^0.9.1
+  flutter_windowmanager: ^0.3.0
+  flutter_widget_from_html: ^0.10.0
   encrypt:
-  flutter_tex: ^4.0.3+4
-  permission_handler: ^10.2.0
+  flutter_tex: ^5.0.0
+  permission_handler: ^11.3.0
 
 dev_dependencies:
-  flutter_lints: ^2.0.2
+  flutter_lints: ^3.0.1
   change_app_package_name: ^1.1.0
   dart_code_metrics_presets: ^2.1.0
   flutter_test:
@@ -72,8 +73,8 @@ dev_dependencies:
 
 dependency_overrides:
   flutter_launcher_icons: ^0.13.1
-  intl: ^0.17.0
-  http: ^0.13.6
+  intl: ^0.18.1
+  http: ^1.2.1
 
 flutter_launcher_icons:
   android: true
